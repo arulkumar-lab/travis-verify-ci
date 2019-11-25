@@ -1,0 +1,13 @@
+extends layout
+block content
+    h1.
+        User List from JSON request
+    ul
+        each user, i in userlist
+            li
+                span #{user.name}-
+                span #{user.age}
+
+    br
+    p
+        a(href="/") Back to HomePage

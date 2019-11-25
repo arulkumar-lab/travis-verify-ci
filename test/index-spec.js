@@ -3,6 +3,6 @@ const server = require('../routes/index');
 
 describe('test', () => {
     it('should return a string', () => {
-        expect('ci with travis').to.equal('ci with travis');
+        expect('index JS template with travis').to.equal('index JS template with travis');
     });
 });
